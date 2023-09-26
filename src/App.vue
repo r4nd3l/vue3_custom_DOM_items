@@ -8,8 +8,6 @@
       class="h-24 w-24 resize flex items-center justify-center overflow-scroll p-2 bg-gray-700 text-gray-300 rounded"
       :ref="getRef(index)"
     >
-      <!-- Use @ts-ignore to suppress TypeScript warning -->
-      <!-- This line is commented out, but keeps the variable for clarity -->
       <!-- @ts-ignore -->
       {{ item }}
     </div>
